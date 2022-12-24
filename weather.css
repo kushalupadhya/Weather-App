@@ -1,0 +1,119 @@
+.body{
+    background-image: url(done.jpg);
+    height:100vh;
+    background-size:cover;
+    background-repeat:no-repeat;
+    position:fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+}
+body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Montserrat', sans-serif;
+}
+.p1{
+    font-size:27px;
+    color:rgb(255, 102, 0);
+}
+.div1{
+    height:450px;
+    width:600px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top:100px;
+    border-radius:10px;
+    left:400px;
+}
+.main1{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.d1{
+    display: inline-block;
+}
+.d2{
+    display: inline-block;
+}
+input{
+    height:40px;
+    width: 315px;
+    border-color:rgb(255, 102, 0);
+    border-top-left-radius:25px;
+    border-bottom-left-radius:25px;
+}
+input::placeholder{
+    color:rgb(255, 102, 0);
+    font-size:15px;
+    padding-left:24px;
+
+}
+.main2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+ 
+    height: 46px;
+    cursor:pointer;
+    border:none;
+    width:95px;
+    border-top-right-radius:25px;
+    border-bottom-right-radius:25px;
+    background-color: rgb(255, 102, 0);
+    color:white;
+    font-size:16px;
+}
+.d3{
+    border-color: black;
+    border-width:2px;
+    display: inline-block;
+    display: flex;
+}
+.p2{
+    text-align: center; 
+    font-size:15.5px;
+    margin-top:45px;
+}
+.img1{
+    height:70px;
+}
+.p3{
+    color:rgb(255, 102, 0);
+    font-weight:600;
+    font-size:45px;
+    margin-top:0px;
+    margin-bottom:18px;
+    margin-right:-15px;
+    padding-top: 0px;
+}
+.p4{
+    color:rgb(255, 102, 0);
+    font-size:18px;
+    font-weight: 550;
+    margin-top:0px;
+    margin-bottom:15px;
+}
+.p5{
+    color:rgb(255, 102, 0);
+    font-size:17px;
+    font-weight: 550;
+    margin-top:0px;
+
+}
+.ab1{
+    color:rgb(255, 102, 0);
+    font-weight:600;
+    font-size:45px;
+    margin-left:12px;
+    margin-top:-5px;
+}
+.ab2{
+    display: flex;
+    flex-direction:row;
+
+}
